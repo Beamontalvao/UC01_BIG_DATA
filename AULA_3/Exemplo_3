@@ -1,0 +1,11 @@
+# Pograma Média
+nome = input("Informe o nome do estudante: ")
+n1 = float(input("Informe a primeira nota de 0 a 100: "))
+n2 = float(input("Informe a segunda nota de 0 a 100: "))
+média = (n1 + n2) / 2
+if média >= 70:
+    print(f"{nome}, você está Aprovado, pois sua média foi {média:.2f}")
+elif média >= 30 and média < 70:
+    print(f"{nome}, você esta em Recuperação, pois sua média foi {média:.2f})
+else:
+    print(f"{nome}, você está Reprovado, pois sua média foi {média:.2f}")
